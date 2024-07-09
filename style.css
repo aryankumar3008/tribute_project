@@ -7,7 +7,7 @@
 .container{
     background-color:antiquewhite ;
    min-height: 100vh;
-   border: 10px solid red;
+   border: 10px solid #e29e2f;
 }
 
 .content{
@@ -16,11 +16,48 @@
 }
 
 .top_section{
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
+
+.top_section h4{
+    text-align: end;
+    font-size: 22px;
+}
+
+.top_section h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* .image_container{
+    border-radius: 50%;
+    overflow: hidden;
+} */
 
 .image_container, img{
     height: 320px;
     width: 300px;
+    border-radius: 50%;
+
+}
+
+.about_section{
+    margin-top: 50px;
+}
+
+.about_section h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.about_section p{   
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
 }
